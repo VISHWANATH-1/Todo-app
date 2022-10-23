@@ -1,0 +1,10 @@
+.Notec{
+    height: 100%;
+}
+.Notec-notes{
+    display: flex;
+    height: 90%;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+}

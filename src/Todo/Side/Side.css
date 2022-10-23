@@ -1,0 +1,29 @@
+
+.Side{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Sidebar>img{
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+.side-list{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center; 
+   height: 0;
+   transition: 300ms;
+}
+.side-list-act{
+    height: 300px;
+}
+.side-list-item{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    list-style: none;
+}
